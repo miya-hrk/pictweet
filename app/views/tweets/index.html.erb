@@ -1,0 +1,4 @@
+   <%= paginate(@tweets) %>
+  <div class= "contents row">
+  <p> <%= render :partial => "tweet", :collection =>  @tweets %></p>
+  </div>
